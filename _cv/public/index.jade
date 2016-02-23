@@ -3,8 +3,8 @@
         .col-md-7
             .row
                 .col-md-4.col-sm-3.hidden-xs
-                    .jumbotron.nomargin.nopadding
-                        img(src= "/profile.jpg",width="100%")
+                    .jumbotron.nomargin.nopadding.img
+                        img(src= "/profile.jpg",width="100%").round
                 .col-md-8.col-sm-9
                     .jumbotron.nomargin.lesspadding
                         h2 Hi. I'm Jack Kleeman. 
@@ -18,29 +18,15 @@
                 |#[a(href="http://devpost.com/software/anonreport-zvqnaf") aNonreport], a protocol to anonymously report information to humans rights organisations. Designed with end-to-end encryption, decentralisation, and total transparency. Began at HackUPC 2016.
         .col-md-5
             .jumbotron.nomargin.lesspadding.hidden-md.hidden-sm.hidden-xs
-                h2 Credentials
-                p.font
-                    |First year Economics undergraduate at <strong>Cambridge University</strong>
-                    br
-                    |Strong and varying work experience, including a four week internship at <strong>the Bank of England</strong>
-                    br
-                    |<strong>Programmer</strong> with experience in Java, Python, Javascript and R 
+                include /_partials/credentials.jade
             .jumbotron.nomargin.hidden-lg
-                h2 Credentials
-                p.font
-                    |First year Economics undergraduate at <strong>Cambridge University</strong>
-                    br
-                    |Strong and varying work experience, including a four week internship at <strong>the Bank of England</strong>
-                    br
-                    |<strong>Programmer</strong> with experience in Java, Python, Javascript and R 
-            
+                include /_partials/credentials.jade
             .jumbotron.nomargin
                 h2 Contact
                 h4 email me #[a(href="mailto:jackkleeman@gmail.com") jackkleeman@gmail.com]
-                h4 call me #[a(href="+447411372882") +447411372882]
                 h4 connect with me on #[a(href="http://uk.linkedin.com/in/jackkleeman") linkedin]     
                 h4 download my #[a(href="/jackkleemancv.pdf") cv]
 
-            .jumbotron.nomargin.nopadding.a
+            .jumbotron.nomargin.tinypadding.a
                 | #[a(href="https://github.com/jackkleeman/jackkleeman.github.io") CV made with love by me in Jade and LESS, using Harp.]
            
