@@ -14,15 +14,21 @@
             .jumbotron.nomargin
                 h2 Projects
                 h4 Creator
+                |#[a(href="https://github.com/monzo/calico-accountant") calico-accountant], a prometheus exporter for the #[a(href="https://www.projectcalico.org/") Calico] data path. Keeps track of the numbers of packets accepted and dropped by policies.
+                br
                 |#[a(href="https://github.com/monzo/envoy-preflight") envoy-preflight], a solution for the sequencing issues presented when running #[a(href="https://www.envoyproxy.io/") Envoy] as a Kubernetes sidecar container. Ensures that Envoy starts before your application, and dies when it's finished.
                 br
                 |#[a(href="https://github.com/jackkleeman/stellar-stripe-anchor") stellar-stripe-anchor], an end-to-end solution for running a USD #[a(href="https://www.stellar.org/") Stellar] anchor using Stripe for payments.
                 br
                 |#[a(href="https://github.com/jayelm/bad-flamingo") Bad Flamingo], a game which asks humans to draw images that other humans can recognise, but a neural network can't. This provides an adversarial training set. First place in Hack Cambridge 2018.
-                h4 Contributor
-                |#[a(href="https://openbazaar.org/") OpenBazaar], an open-source protocol for a peer-to-peer decentralised marketplace, using Bitcoin, IPFS, and Tor. I contributed in the past with Go development and occasionally changes to the protocol itself.
+                h4 Writeups
+                |#[a(href="https://monzo.com/blog/2019/10/11/how-our-security-team-handle-secrets") How our security team handles secrets]
                 br
-                |#[a(href="https://github.com/libp2p") libp2p], a cross-platform set of libraries for peer to peer networking. I made some mostly minor contributions in the past in Go and JS.
+                |#[a(href="https://monzo.com/blog/2019/03/19/improving-our-staff-VPN") How we improved our staff VPN]
+                br
+                |#[a(href="https://monzo.com/blog/2019/03/06/engineering-with-no-degree") Do you need a computer science degree to become a software engineer?]
+                br
+                |#[a(href="https://monzo.com/blog/2018/11/29/refactoring-old-code") The Refactathon: Cleaning up old code]
         .col-md-5
             .jumbotron.nomargin.lesspadding.hidden-md.hidden-sm.hidden-xs
                 include /_partials/credentials.jade
