@@ -14,9 +14,11 @@
             .jumbotron.nomargin
                 h2 Projects
                 h4 Creator
+                |#[a(href="https://github.com/monzo/egress-operator") egress-operator], a Kubernetes operator which helps to control traffic leaving your platform using ephemeral #[a(href="https://www.envoyproxy.io/") Envoy] gateways.
+                br
                 |#[a(href="https://github.com/monzo/calico-accountant") calico-accountant], a prometheus exporter for the #[a(href="https://www.projectcalico.org/") Calico] data path. Keeps track of the numbers of packets accepted and dropped by policies.
                 br
-                |#[a(href="https://github.com/monzo/envoy-preflight") envoy-preflight], a solution for the sequencing issues presented when running #[a(href="https://www.envoyproxy.io/") Envoy] as a Kubernetes sidecar container. Ensures that Envoy starts before your application, and dies when it's finished.
+                |#[a(href="https://github.com/monzo/envoy-preflight") envoy-preflight], a solution for the sequencing issues presented when running #[a(href="https://www.envoyproxy.io/") Envoy] as a Kubernetes sidecar container.
                 br
                 |#[a(href="https://github.com/jackkleeman/stellar-stripe-anchor") stellar-stripe-anchor], an end-to-end solution for running a USD #[a(href="https://www.stellar.org/") Stellar] anchor using Stripe for payments.
                 h4 Writeups
@@ -31,8 +33,6 @@
                 |#[a(href="https://monzo.com/blog/2019/03/19/improving-our-staff-VPN") How we improved our staff VPN]
                 br
                 |#[a(href="https://monzo.com/blog/2019/03/06/engineering-with-no-degree") Do you need a computer science degree to become a software engineer?]
-                br
-                |#[a(href="https://monzo.com/blog/2018/11/29/refactoring-old-code") The Refactathon: Cleaning up old code]
         .col-md-5
             .jumbotron.nomargin.lesspadding.hidden-md.hidden-sm.hidden-xs
                 include /_partials/credentials.jade
